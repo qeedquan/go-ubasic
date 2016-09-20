@@ -1,0 +1,47 @@
+package lex
+
+type Token rune
+
+const (
+	ERROR Token = iota
+	EOF
+	NUMBER
+	STRING
+	VARIABLE
+	LET
+	PRINT
+	IF
+	THEN
+	ELSE
+	FOR
+	TO
+	NEXT
+	GOTO
+	GOSUB
+	RETURN
+	CALL
+	REM
+	PEEK
+	POKE
+	END
+	COMMA
+	SEMICOLON
+	PLUS
+	MINUS
+	AND
+	OR
+	XOR
+	ASTR
+	SLASH
+	MOD
+	HASH
+	LPAREN
+	RPAREN
+	LT
+	GT
+	LEQ
+	GEQ
+	NEQ
+	EQ
+	CR
+)

@@ -1,0 +1,7 @@
+The interpreter is based on Adam Dunkels ubasic
+https://github.com/adamdunkels/ubasic (Version Jul 16, 2014) 
+with some added features:
+
+* REPL support
+* More binary operators <= >= != ^
+* Variable names can be longer than one character
